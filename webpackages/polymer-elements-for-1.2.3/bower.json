@@ -1,0 +1,35 @@
+{
+  "name": "polymer-elements-for-1.2.3",
+  "authors": [
+    "Edwin Gamboa <Edwin.Gamboa@incowia.com>"
+  ],
+  "description": "Cubbles wrapper for polymer elements. The supported version of polymer is 1.2.3",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "elements",
+    "web",
+    "components",
+    "cubbles",
+    "components"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [],
+  "dependencies": {
+    "google-map": "GoogleWebComponents/google-map",
+    "google-youtube": "GoogleWebComponents/google-youtube",
+    "app-layout": "PolymerElements/app-layout",
+    "paper-button": "PolymerElements/paper-button",
+    "paper-checkbox": "PolymerElements/paper-checkbox",
+    "paper-dialog": "PolymerElements/paper-dialog",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu",
+    "paper-input": "PolymerElements/paper-input",
+    "paper-radio-button": "PolymerElements/paper-radio-button",
+    "gold-cc-cvc-input": "PolymerElements/gold-cc-cvc-input",
+    "gold-cc-expiration-input": "PolymerElements/gold-cc-expiration-input",
+    "gold-cc-input": "PolymerElements/gold-cc-input"
+  }
+}

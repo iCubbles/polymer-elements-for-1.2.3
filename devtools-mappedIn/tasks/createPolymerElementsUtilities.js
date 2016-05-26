@@ -1,15 +1,22 @@
 /*global module,require*/
 'use strict';
+var fakePolymerDep = require('../lib/createEmptyPolymerDependency');
+var installBowerDep = require('../lib/installBowerDependencies');
 var utils = require('cubx-grunt-webpackage-scaffold/lib/utils');
 var path = require('path');
 module.exports = function (grunt) {
   grunt.registerTask('createPolymerElementsUtilities', 'Scaffold an utility for each polymer element in manifest.webpackage',
     function () {
+      installBowerDep(grunt);
       var webpackagePath = grunt.config.get('param.src');
       var polymerElements = grunt.file.readJSON(webpackagePath + '/bower.json').dependencies || [];
       var manifestWebpackagePath = grunt.config.get('manifestWebpackagePath');
       var manifest = grunt.file.readJSON(manifestWebpackagePath);
-      var errorMessages = '';
+      var notFoundElements = '';
+      var countReplaced = 0;
+      var countPushed = 0;
+      var countLightEndpoints = 0;
+      var countFailures = 0;
       for (var key in polymerElements) {
         var elementPath = path.join(webpackagePath, key, key + '.html');
         try {
@@ -43,6 +50,7 @@ module.exports = function (grunt) {
               ]
             };
             artifactObject.endpoints.push(lightEndpoint);
+            countLightEndpoints++;
           } catch (e) {}
 
           // make sure the artifact-type section does exist
@@ -54,20 +62,34 @@ module.exports = function (grunt) {
           var index = utils.arrayObjectIndexOf(manifest.artifacts.utilities, 'artifactId',
             artifactObject.artifactId);
           if (index < 0) {
-            grunt.log.writeln(
-              'Pushing the new artifact into manifest.webpackage: ' + artifactObject.artifactId);
             manifest.artifacts.utilities.push(artifactObject);
+            countPushed++;
           } else {
-            grunt.log.writeln(
-              'Replacing the artifact within manifest.webpackage: ' + artifactObject.artifactId);
             manifest.artifacts.utilities.splice(index, 1, artifactObject);
+            countReplaced++;
           }
           grunt.file.write(manifestWebpackagePath, JSON.stringify(manifest, null, 2));
-          grunt.log.ok('Added ' + key + ' utility');
         } catch (e) {
-          errorMessages += '\n' + e.message;
+          countFailures++;
+          notFoundElements += '\n' + key;
         }
       }
-      grunt.log.error(errorMessages);
+      fakePolymerDep(grunt);
+      grunt.log.subhead('Successful operations:');
+      grunt.log.ok('Polymer empty html file was created (faked dependency).');
+      if (countPushed > 0) {
+        grunt.log.ok(countPushed + ' polymer elements were pushed as utilities within manifest.webpackage.');
+      }
+      if (countReplaced > 0) {
+        grunt.log.ok(countReplaced + ' polymer elements utilities were replaced within manifest.webpackage.');
+      }
+      if (countLightEndpoints > 0) {
+        grunt.log.ok(countLightEndpoints + ' polymer light elements were pushed as light endpoints within manifest.webpackage.');
+      }
+      grunt.log.subhead('Failed operations:');
+      if (countFailures > 0) {
+        grunt.log.error('The following ' + countFailures + ' polymer elements could not be pushed as utilities within manifest.webpackage.');
+        grunt.log.error(notFoundElements);
+      }
     });
 };

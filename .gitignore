@@ -23,4 +23,7 @@ webpackages/*_dist/
 
 webpackages/**/test-results
 
+webpackages/**/demo
+webpackages/**/test
+
 .workspace

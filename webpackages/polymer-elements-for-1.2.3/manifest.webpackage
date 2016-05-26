@@ -17,195 +17,6 @@
     "compoundComponents": [],
     "utilities": [
       {
-        "artifactId": "google-map",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "google-map/google-map.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "google-youtube",
-        "description": "Utility to use the google-youtube polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "google-youtube/google-youtube.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "app-layout",
-        "description": "Utility to use the app-layout polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "app-layout/app-layout.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-button",
-        "description": "Utility to use the paper-button polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-button/paper-button.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-checkbox",
-        "description": "Utility to use the paper-checkbox polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-checkbox/paper-checkbox.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dialog",
-        "description": "Utility to use the paper-dialog polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-dialog/paper-dialog.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dropdown-menu",
-        "description": "Utility to use the paper-dropdown-menu polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-dropdown-menu/paper-dropdown-menu.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          },
-          {
-            "endpointId": "light",
-            "resources": [
-              "paper-dropdown-menu/paper-dropdown-menu-light.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-input",
-        "description": "Utility to use the paper-input polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-input/paper-input.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-radio-button",
-        "description": "Utility to use the paper-radio-button polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-radio-button/paper-radio-button.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-cvc-input",
-        "description": "Utility to use the gold-cc-cvc-input polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "gold-cc-cvc-input/gold-cc-cvc-input.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-expiration-input",
-        "description": "Utility to use the gold-cc-expiration-input polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "gold-cc-expiration-input/gold-cc-expiration-input.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-input",
-        "description": "Utility to use the gold-cc-input polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "gold-cc-input/gold-cc-input.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
         "artifactId": "google-analytics",
         "description": "Utility to use the google-analytics polymer element as dependency within a Cubbles component",
         "endpoints": [
@@ -311,6 +122,21 @@
         ]
       },
       {
+        "artifactId": "google-map",
+        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "google-map/google-map.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
         "artifactId": "google-sheets",
         "description": "Utility to use the google-sheets polymer element as dependency within a Cubbles component",
         "endpoints": [
@@ -371,6 +197,21 @@
         ]
       },
       {
+        "artifactId": "google-youtube",
+        "description": "Utility to use the google-youtube polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "google-youtube/google-youtube.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
         "artifactId": "google-youtube-upload",
         "description": "Utility to use the google-youtube-upload polymer element as dependency within a Cubbles component",
         "endpoints": [
@@ -378,6 +219,21 @@
             "endpointId": "main",
             "resources": [
               "google-youtube-upload/google-youtube-upload.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "app-layout",
+        "description": "Utility to use the app-layout polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "app-layout/app-layout.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1016,6 +872,21 @@
         ]
       },
       {
+        "artifactId": "paper-button",
+        "description": "Utility to use the paper-button polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-button/paper-button.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
         "artifactId": "paper-card",
         "description": "Utility to use the paper-card polymer element as dependency within a Cubbles component",
         "endpoints": [
@@ -1023,6 +894,36 @@
             "endpointId": "main",
             "resources": [
               "paper-card/paper-card.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-checkbox",
+        "description": "Utility to use the paper-checkbox polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-checkbox/paper-checkbox.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dialog",
+        "description": "Utility to use the paper-dialog polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-dialog/paper-dialog.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1068,6 +969,30 @@
             "endpointId": "main",
             "resources": [
               "paper-drawer-panel/paper-drawer-panel.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dropdown-menu",
+        "description": "Utility to use the paper-dropdown-menu polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-dropdown-menu/paper-dropdown-menu.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "light",
+            "resources": [
+              "paper-dropdown-menu/paper-dropdown-menu-light.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1122,6 +1047,21 @@
             "endpointId": "light",
             "resources": [
               "paper-icon-button/paper-icon-button-light.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-input",
+        "description": "Utility to use the paper-input polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-input/paper-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1212,6 +1152,21 @@
             "endpointId": "main",
             "resources": [
               "paper-progress/paper-progress.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-radio-button",
+        "description": "Utility to use the paper-radio-button polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-radio-button/paper-radio-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1377,6 +1332,51 @@
             "endpointId": "main",
             "resources": [
               "paper-tooltip/paper-tooltip.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-cvc-input",
+        "description": "Utility to use the gold-cc-cvc-input polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "gold-cc-cvc-input/gold-cc-cvc-input.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-expiration-input",
+        "description": "Utility to use the gold-cc-expiration-input polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "gold-cc-expiration-input/gold-cc-expiration-input.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-input",
+        "description": "Utility to use the gold-cc-input polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "gold-cc-input/gold-cc-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"

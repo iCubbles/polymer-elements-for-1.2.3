@@ -26,7 +26,7 @@
         "description": "Utility to use the platinum-bluetooth-elements polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
-            "endpointId": "main",
+            "endpointId": "platinum-bluetooth-elements",
             "resources": [
               "platinum-bluetooth-elements.html"
             ],
@@ -41,7 +41,7 @@
         "description": "Utility to use the platinum-sw-elements polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
-            "endpointId": "main",
+            "endpointId": "platinum-sw-elements",
             "resources": [
               "platinum-sw-elements.html"
             ],
@@ -56,9 +56,198 @@
         "description": "Utility to use the prism-highlighter polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
-            "endpointId": "main",
+            "endpointId": "prism-highlighter",
             "resources": [
               "prism-highlighter.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "firebase-element",
+        "description": "Utility to use the firebase-element polymer elements as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "firebase-collection",
+            "resources": [
+              "firebase-collection.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "firebase-document",
+            "resources": [
+              "firebase-document.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "firebase-auth",
+            "resources": [
+              "firebase-auth.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "app-pouchdb",
+        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "app-pouchdb-conflict-resolution",
+            "resources": [
+              "app-pouchdb-conflict-resolution.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "app-pouchdb-document",
+            "resources": [
+              "app-pouchdb-document.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "app-pouchdb-index",
+            "resources": [
+              "app-pouchdb-index.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "app-pouchdb-query",
+            "resources": [
+              "app-pouchdb-query.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "app-storage",
+        "description": "Utility to use the app-storage polymer elements as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "app-localstorage-document",
+            "resources": [
+              "app-localstorage/app-localstorage-document.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "app-indexeddb-mirror",
+            "resources": [
+              "app-indexeddb-mirror/app-indexeddb-mirror.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-demo-helpers",
+        "description": "Utility to use the iron-demo-helpers polymer elements as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "demo-snippet",
+            "resources": [
+              "demo-snippet.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "url-bar",
+            "resources": [
+              "url-bar.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-behaviors",
+        "description": "Utility to use the iron-behaviors as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "iron-button-state",
+            "resources": [
+              "iron-button-state.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "iron-control-state",
+            "resources": [
+              "iron-control-state.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-behaviors",
+        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "paper-button-behavior",
+            "resources": [
+              "paper-button-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "paper-ripple-behavior",
+            "resources": [
+              "paper-ripple-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "paper-checked-element-behavior",
+            "resources": [
+              "paper-checked-element-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "paper-inky-focus-behavior",
+            "resources": [
+              "paper-inky-focus-behavior.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1337,6 +1526,201 @@
             "endpointId": "main",
             "resources": [
               "marked-element.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "app-localize-behavior",
+        "description": "Utility to use the app-localize-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "app-localize-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-a11y-keys-behavior",
+        "description": "Utility to use the iron-a11y-keys-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-a11y-keys-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-checked-element-behavior",
+        "description": "Utility to use the iron-checked-element-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-checked-element-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-fit-behavior",
+        "description": "Utility to use the iron-fit-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-fit-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-form-element-behavior",
+        "description": "Utility to use the iron-form-element-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-form-element-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-menu-behavior",
+        "description": "Utility to use the iron-menu-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-menu-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-overlay-behavior",
+        "description": "Utility to use the iron-overlay-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-overlay-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-range-behavior",
+        "description": "Utility to use the iron-range-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-range-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-resizable-behavior",
+        "description": "Utility to use the iron-resizable-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-resizable-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-scroll-target-behavior",
+        "description": "Utility to use the iron-scroll-target-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-scroll-target-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-validatable-behavior",
+        "description": "Utility to use the iron-validatable-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-validatable-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-validator-behavior",
+        "description": "Utility to use the iron-validator-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "iron-validator-behavior.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dialog-behavior",
+        "description": "Utility to use the paper-dialog-behavior polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "paper-dialog-behavior.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"

@@ -1,10 +1,15 @@
 /*global module*/
 var execSync = require('child_process').execSync;
-var path = require('path');
+var del = require('del');
 'use strict';
 module.exports = function (grunt) {
   var webpackagePath = grunt.config.get('param.src');
-  grunt.log.writeln('Installing dependencies defined in ', path.join(webpackagePath + '/bower.json ...'));
-
+  grunt.log.writeln('Installing dependencies defined in' + webpackagePath + '/bower.json ...');
   execSync('bower install', {cwd: webpackagePath});
+  del.sync([
+    webpackagePath + '/**/demo',
+    webpackagePath + '/**/test',
+    webpackagePath + '/**/demos',
+    webpackagePath + '/**/tests'],
+    {force: true});
 };

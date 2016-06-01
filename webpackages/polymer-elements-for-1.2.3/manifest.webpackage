@@ -9,7 +9,12 @@
     "email": "edwin.gamboa@incowia.com"
   },
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "polymer elements",
+    "polymer utilities",
+    "polymer",
+    "elements"
+  ],
   "man": [],
   "artifacts": {
     "apps": [],
@@ -17,13 +22,58 @@
     "compoundComponents": [],
     "utilities": [
       {
+        "artifactId": "platinum-bluetooth",
+        "description": "Utility to use the platinum-bluetooth-elements polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "platinum-bluetooth-elements.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "platinum-sw",
+        "description": "Utility to use the platinum-sw-elements polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "platinum-sw-elements.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
+        "artifactId": "prism-element",
+        "description": "Utility to use the prism-highlighter polymer element as dependency within a Cubbles component",
+        "endpoints": [
+          {
+            "endpointId": "main",
+            "resources": [
+              "prism-highlighter.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          }
+        ]
+      },
+      {
         "artifactId": "google-analytics",
         "description": "Utility to use the google-analytics polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
             "endpointId": "main",
             "resources": [
-              "google-analytics/google-analytics.html"
+              "google-analytics.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -38,7 +88,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-apis/google-apis.html"
+              "google-apis.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -53,7 +103,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-calendar/google-calendar.html"
+              "google-calendar.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -68,7 +118,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-castable-video/google-castable-video.html"
+              "google-castable-video.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -83,7 +133,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-chart/google-chart.html"
+              "google-chart.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -98,7 +148,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-feeds/google-feeds.html"
+              "google-feeds.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -113,7 +163,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-hangout-button/google-hangout-button.html"
+              "google-hangout-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -128,7 +178,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-map/google-map.html"
+              "google-map.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -143,7 +193,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-sheets/google-sheets.html"
+              "google-sheets.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -158,7 +208,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-signin/google-signin.html"
+              "google-signin.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -173,7 +223,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-streetview-pano/google-streetview-pano.html"
+              "google-streetview-pano.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -188,7 +238,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-url-shortener/google-url-shortener.html"
+              "google-url-shortener.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -203,7 +253,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-youtube/google-youtube.html"
+              "google-youtube.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -218,7 +268,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "google-youtube-upload/google-youtube-upload.html"
+              "google-youtube-upload.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -233,22 +283,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "app-layout/app-layout.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "app-localize-behavior",
-        "description": "Utility to use the app-localize-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "app-localize-behavior/app-localize-behavior.html"
+              "app-layout.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -263,7 +298,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "app-route/app-route.html"
+              "app-route.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -278,7 +313,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-a11y-announcer/iron-a11y-announcer.html"
+              "iron-a11y-announcer.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -293,22 +328,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-a11y-keys/iron-a11y-keys.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-a11y-keys-behavior",
-        "description": "Utility to use the iron-a11y-keys-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-a11y-keys-behavior/iron-a11y-keys-behavior.html"
+              "iron-a11y-keys.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -323,7 +343,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-ajax/iron-ajax.html"
+              "iron-ajax.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -338,22 +358,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-autogrow-textarea/iron-autogrow-textarea.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-checked-element-behavior",
-        "description": "Utility to use the iron-checked-element-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-checked-element-behavior/iron-checked-element-behavior.html"
+              "iron-autogrow-textarea.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -368,7 +373,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-collapse/iron-collapse.html"
+              "iron-collapse.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -383,7 +388,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-component-page/iron-component-page.html"
+              "iron-component-page.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -398,7 +403,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-doc-viewer/iron-doc-viewer.html"
+              "iron-doc-viewer.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -413,22 +418,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-dropdown/iron-dropdown.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-fit-behavior",
-        "description": "Utility to use the iron-fit-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-fit-behavior/iron-fit-behavior.html"
+              "iron-dropdown.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -443,7 +433,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-flex-layout/iron-flex-layout.html"
+              "iron-flex-layout.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -458,22 +448,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-form/iron-form.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-form-element-behavior",
-        "description": "Utility to use the iron-form-element-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-form-element-behavior/iron-form-element-behavior.html"
+              "iron-form.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -488,7 +463,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-icon/iron-icon.html"
+              "iron-icon.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -503,7 +478,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-icons/iron-icons.html"
+              "iron-icons.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -518,7 +493,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-iconset/iron-iconset.html"
+              "iron-iconset.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -533,7 +508,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-image/iron-image.html"
+              "iron-image.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -548,7 +523,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-input/iron-input.html"
+              "iron-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -563,7 +538,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-jsonp-library/iron-jsonp-library.html"
+              "iron-jsonp-library.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -578,7 +553,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-label/iron-label.html"
+              "iron-label.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -593,7 +568,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-list/iron-list.html"
+              "iron-list.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -608,7 +583,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-localstorage/iron-localstorage.html"
+              "iron-localstorage.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -623,7 +598,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-location/iron-location.html"
+              "iron-location.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -638,22 +613,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-media-query/iron-media-query.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-menu-behavior",
-        "description": "Utility to use the iron-menu-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-menu-behavior/iron-menu-behavior.html"
+              "iron-media-query.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -668,22 +628,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-meta/iron-meta.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-overlay-behavior",
-        "description": "Utility to use the iron-overlay-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-overlay-behavior/iron-overlay-behavior.html"
+              "iron-meta.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -698,52 +643,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-pages/iron-pages.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-range-behavior",
-        "description": "Utility to use the iron-range-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-range-behavior/iron-range-behavior.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-resizable-behavior",
-        "description": "Utility to use the iron-resizable-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-resizable-behavior/iron-resizable-behavior.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-scroll-target-behavior",
-        "description": "Utility to use the iron-scroll-target-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-scroll-target-behavior/iron-scroll-target-behavior.html"
+              "iron-pages.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -758,7 +658,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-scroll-threshold/iron-scroll-threshold.html"
+              "iron-scroll-threshold.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -773,7 +673,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-selector/iron-selector.html"
+              "iron-selector.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -788,7 +688,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-signals/iron-signals.html"
+              "iron-signals.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -803,7 +703,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-swipeable-container/iron-swipeable-container.html"
+              "iron-swipeable-container.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -818,37 +718,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "iron-test-helpers/iron-test-helpers.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-validatable-behavior",
-        "description": "Utility to use the iron-validatable-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-validatable-behavior/iron-validatable-behavior.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-validator-behavior",
-        "description": "Utility to use the iron-validator-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "iron-validator-behavior/iron-validator-behavior.html"
+              "iron-test-helpers.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -863,7 +733,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-badge/paper-badge.html"
+              "paper-badge.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -878,7 +748,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-button/paper-button.html"
+              "paper-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -893,7 +763,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-card/paper-card.html"
+              "paper-card.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -908,7 +778,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-checkbox/paper-checkbox.html"
+              "paper-checkbox.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -923,22 +793,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-dialog/paper-dialog.html"
-            ],
-            "dependencies": [
-              "polymer-1.2.3@1.0.2/polymer/main"
-            ]
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dialog-behavior",
-        "description": "Utility to use the paper-dialog-behavior polymer element as dependency within a Cubbles component",
-        "endpoints": [
-          {
-            "endpointId": "main",
-            "resources": [
-              "paper-dialog-behavior/paper-dialog-behavior.html"
+              "paper-dialog.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -953,7 +808,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-dialog-scrollable/paper-dialog-scrollable.html"
+              "paper-dialog-scrollable.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -968,7 +823,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-drawer-panel/paper-drawer-panel.html"
+              "paper-drawer-panel.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -983,7 +838,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-dropdown-menu/paper-dropdown-menu.html"
+              "paper-dropdown-menu.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -992,7 +847,7 @@
           {
             "endpointId": "light",
             "resources": [
-              "paper-dropdown-menu/paper-dropdown-menu-light.html"
+              "paper-dropdown-menu-light.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1007,7 +862,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-fab/paper-fab.html"
+              "paper-fab.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1022,7 +877,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-header-panel/paper-header-panel.html"
+              "paper-header-panel.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1037,7 +892,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-icon-button/paper-icon-button.html"
+              "paper-icon-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1046,7 +901,7 @@
           {
             "endpointId": "light",
             "resources": [
-              "paper-icon-button/paper-icon-button-light.html"
+              "paper-icon-button-light.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1061,7 +916,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-input/paper-input.html"
+              "paper-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1076,7 +931,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-item/paper-item.html"
+              "paper-item.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1091,7 +946,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-listbox/paper-listbox.html"
+              "paper-listbox.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1106,7 +961,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-material/paper-material.html"
+              "paper-material.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1121,7 +976,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-menu/paper-menu.html"
+              "paper-menu.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1136,7 +991,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-menu-button/paper-menu-button.html"
+              "paper-menu-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1151,7 +1006,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-progress/paper-progress.html"
+              "paper-progress.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1166,7 +1021,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-radio-button/paper-radio-button.html"
+              "paper-radio-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1181,7 +1036,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-radio-group/paper-radio-group.html"
+              "paper-radio-group.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1196,7 +1051,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-ripple/paper-ripple.html"
+              "paper-ripple.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1211,7 +1066,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-scroll-header-panel/paper-scroll-header-panel.html"
+              "paper-scroll-header-panel.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1226,7 +1081,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-slider/paper-slider.html"
+              "paper-slider.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1241,7 +1096,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-spinner/paper-spinner.html"
+              "paper-spinner.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1256,7 +1111,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-styles/paper-styles.html"
+              "paper-styles.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1271,7 +1126,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-tabs/paper-tabs.html"
+              "paper-tabs.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1286,7 +1141,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-toast/paper-toast.html"
+              "paper-toast.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1301,7 +1156,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-toggle-button/paper-toggle-button.html"
+              "paper-toggle-button.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1316,7 +1171,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-toolbar/paper-toolbar.html"
+              "paper-toolbar.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1331,7 +1186,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "paper-tooltip/paper-tooltip.html"
+              "paper-tooltip.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1346,7 +1201,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-cc-cvc-input/gold-cc-cvc-input.html"
+              "gold-cc-cvc-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1361,7 +1216,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-cc-expiration-input/gold-cc-expiration-input.html"
+              "gold-cc-expiration-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1376,7 +1231,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-cc-input/gold-cc-input.html"
+              "gold-cc-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1391,7 +1246,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-email-input/gold-email-input.html"
+              "gold-email-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1406,7 +1261,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-phone-input/gold-phone-input.html"
+              "gold-phone-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1421,7 +1276,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "gold-zip-input/gold-zip-input.html"
+              "gold-zip-input.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1436,7 +1291,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "neon-animation/neon-animation.html"
+              "neon-animation.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1451,7 +1306,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "platinum-https-redirect/platinum-https-redirect.html"
+              "platinum-https-redirect.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1466,7 +1321,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "platinum-push-messaging/platinum-push-messaging.html"
+              "platinum-push-messaging.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"
@@ -1481,7 +1336,7 @@
           {
             "endpointId": "main",
             "resources": [
-              "marked-element/marked-element.html"
+              "marked-element.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"

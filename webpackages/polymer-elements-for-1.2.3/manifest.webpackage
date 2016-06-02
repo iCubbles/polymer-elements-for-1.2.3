@@ -1,7 +1,7 @@
 {
   "name": "polymer-elements-for-1.2.3",
   "groupId": "",
-  "version": "1.0.0",
+  "version": "1.0.1-SNAPSHOT",
   "modelVersion": "8.3.1",
   "docType": "webpackage",
   "author": {
@@ -365,9 +365,54 @@
         "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
-            "endpointId": "main",
+            "endpointId": "google-map",
             "resources": [
               "google-map.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "google-map-directions",
+            "resources": [
+              "google-map-directions.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "google-map-marker",
+            "resources": [
+              "google-map-marker.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "google-map-point",
+            "resources": [
+              "google-map-point.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "google-map-poly",
+            "resources": [
+              "google-map-poly.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "google-map-search",
+            "resources": [
+              "google-map-search.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"

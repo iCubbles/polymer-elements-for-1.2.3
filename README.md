@@ -28,6 +28,7 @@ that uses the polymer elements _google-map_ and _google-map-maker_.
           "polymer-elements-for-1.2.3@1.0.1-SNAPSHOT/google-map/google-map-marker"
         ]
       }
+    ]
     ...
 }
 ```

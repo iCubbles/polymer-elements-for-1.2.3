@@ -1208,9 +1208,18 @@
         "description": "Utility to use the paper-menu polymer element as dependency within a Cubbles component",
         "endpoints": [
           {
-            "endpointId": "main",
+            "endpointId": "paper-menu",
             "resources": [
               "paper-menu.html"
+            ],
+            "dependencies": [
+              "polymer-1.2.3@1.0.2/polymer/main"
+            ]
+          },
+          {
+            "endpointId": "paper-submenu",
+            "resources": [
+              "paper-submenu.html"
             ],
             "dependencies": [
               "polymer-1.2.3@1.0.2/polymer/main"

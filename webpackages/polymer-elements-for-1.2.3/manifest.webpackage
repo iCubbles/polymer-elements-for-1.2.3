@@ -1,7 +1,7 @@
 {
   "name": "polymer-elements-for-1.2.3",
   "groupId": "",
-  "version": "1.0.1-SNAPSHOT",
+  "version": "1.0.1",
   "modelVersion": "8.3.1",
   "docType": "webpackage",
   "author": {

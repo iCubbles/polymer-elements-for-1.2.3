@@ -24,8 +24,8 @@ that uses the polymer elements _google-map_ and _google-map-maker_.
         ],
         "dependencies": [
           "cubx.core.rte@1.9.0/cubxpolymer/main",
-          "polymer-elements-for-1.2.3@1.0.1-SNAPSHOT/google-map/google-map",
-          "polymer-elements-for-1.2.3@1.0.1-SNAPSHOT/google-map/google-map-marker"
+          "polymer-elements-for-1.2.3@1.0.1/google-map/google-map",
+          "polymer-elements-for-1.2.3@1.0.1/google-map/google-map-marker"
         ]
       }
     ]

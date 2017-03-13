@@ -22,7 +22,7 @@
     "firebase-element": "GoogleWebComponents/firebase-element#1.0.12",
     "google-analytics": "GoogleWebComponents/google-analytics#1.2.1",
     "google-apis": "GoogleWebComponents/google-apis#1.1.7",
-    "google-calendar": "GoogleWebComponents/google-calendar#1.0.1",
+    "google-calendar": "GoogleWebComponents/google-calendar#1.0.3",
     "google-castable-video": "GoogleWebComponents/google-castable-video#1.0.2",
     "google-chart": "GoogleWebComponents/google-chart#1.0.4",
     "google-feeds": "GoogleWebComponents/google-feeds#1.0.2",

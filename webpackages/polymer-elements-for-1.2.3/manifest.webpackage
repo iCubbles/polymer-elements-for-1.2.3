@@ -22,552 +22,6 @@
     "compoundComponents": [],
     "utilities": [
       {
-        "artifactId": "platinum-bluetooth",
-        "description": "Utility to use the platinum-bluetooth-elements polymer element as dependency within a Cubbles component",
-        "resources": [
-          "platinum-bluetooth-elements.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "platinum-sw",
-        "description": "Utility to use the platinum-sw-elements polymer element as dependency within a Cubbles component",
-        "resources": [
-          "platinum-sw-elements.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "prism-element",
-        "description": "Utility to use the prism-highlighter polymer element as dependency within a Cubbles component",
-        "resources": [
-          "prism-highlighter.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "firebase-element-firebase-collection",
-        "description": "Utility to use the firebase-element polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "firebase-collection.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "firebase-element-firebase-document",
-        "description": "Utility to use the firebase-element polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "firebase-document.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "firebase-element-firebase-auth",
-        "description": "Utility to use the firebase-element polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "firebase-auth.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-pouchdb-app-pouchdb-conflict-resolution",
-        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-pouchdb-conflict-resolution.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-pouchdb-app-pouchdb-document",
-        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-pouchdb-document.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-pouchdb-app-pouchdb-index",
-        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-pouchdb-index.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-pouchdb-app-pouchdb-query",
-        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-pouchdb-query.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-storage-app-localstorage-document",
-        "description": "Utility to use the app-storage polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-localstorage/app-localstorage-document.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-storage-app-indexeddb-mirror",
-        "description": "Utility to use the app-storage polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "app-indexeddb-mirror/app-indexeddb-mirror.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-demo-helpers-demo-snippet",
-        "description": "Utility to use the iron-demo-helpers polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "demo-snippet.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-demo-helpers-url-bar",
-        "description": "Utility to use the iron-demo-helpers polymer elements as dependency within a Cubbles component",
-        "resources": [
-          "url-bar.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-behaviors-iron-button-state",
-        "description": "Utility to use the iron-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "iron-button-state.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-behaviors-iron-control-state",
-        "description": "Utility to use the iron-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "iron-control-state.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-behaviors-paper-button-behavior",
-        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "paper-button-behavior.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-behaviors-paper-ripple-behavior",
-        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "paper-ripple-behavior.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-behaviors-paper-checked-element-behavior",
-        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "paper-checked-element-behavior.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-behaviors-paper-inky-focus-behavior",
-        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
-        "resources": [
-          "paper-inky-focus-behavior.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-analytics",
-        "description": "Utility to use the google-analytics polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-analytics.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-apis",
-        "description": "Utility to use the google-apis polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-apis.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-calendar",
-        "description": "Utility to use the google-calendar polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-calendar.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-castable-video",
-        "description": "Utility to use the google-castable-video polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-castable-video.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-chart",
-        "description": "Utility to use the google-chart polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-chart.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-feeds",
-        "description": "Utility to use the google-feeds polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-feeds.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-hangout-button",
-        "description": "Utility to use the google-hangout-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-hangout-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map-directions",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map-directions.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map-marker",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map-marker.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map-point",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map-point.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map-poly",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map-poly.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-map-google-map-search",
-        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-map-search.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-sheets",
-        "description": "Utility to use the google-sheets polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-sheets.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-signin",
-        "description": "Utility to use the google-signin polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-signin.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-streetview-pano",
-        "description": "Utility to use the google-streetview-pano polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-streetview-pano.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-url-shortener",
-        "description": "Utility to use the google-url-shortener polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-url-shortener.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-youtube",
-        "description": "Utility to use the google-youtube polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-youtube.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "google-youtube-upload",
-        "description": "Utility to use the google-youtube-upload polymer element as dependency within a Cubbles component",
-        "resources": [
-          "google-youtube-upload.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
         "artifactId": "app-layout",
         "description": "Utility to use the app-layout polymer element as dependency within a Cubbles component",
         "resources": [
@@ -575,1017 +29,8 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "app-route",
-        "description": "Utility to use the app-route polymer element as dependency within a Cubbles component",
-        "resources": [
-          "app-route.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-a11y-announcer",
-        "description": "Utility to use the iron-a11y-announcer polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-a11y-announcer.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-a11y-keys",
-        "description": "Utility to use the iron-a11y-keys polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-a11y-keys.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-ajax",
-        "description": "Utility to use the iron-ajax polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-ajax.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-autogrow-textarea",
-        "description": "Utility to use the iron-autogrow-textarea polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-autogrow-textarea.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-collapse",
-        "description": "Utility to use the iron-collapse polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-collapse.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-component-page",
-        "description": "Utility to use the iron-component-page polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-component-page.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-doc-viewer",
-        "description": "Utility to use the iron-doc-viewer polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-doc-viewer.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-dropdown",
-        "description": "Utility to use the iron-dropdown polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-dropdown.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-flex-layout",
-        "description": "Utility to use the iron-flex-layout polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-flex-layout.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-form",
-        "description": "Utility to use the iron-form polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-form.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-icon",
-        "description": "Utility to use the iron-icon polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-icon.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-icons",
-        "description": "Utility to use the iron-icons polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-icons.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-iconset",
-        "description": "Utility to use the iron-iconset polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-iconset.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-image",
-        "description": "Utility to use the iron-image polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-image.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-input",
-        "description": "Utility to use the iron-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-jsonp-library",
-        "description": "Utility to use the iron-jsonp-library polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-jsonp-library.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-label",
-        "description": "Utility to use the iron-label polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-label.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-list",
-        "description": "Utility to use the iron-list polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-list.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-localstorage",
-        "description": "Utility to use the iron-localstorage polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-localstorage.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-location",
-        "description": "Utility to use the iron-location polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-location.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-media-query",
-        "description": "Utility to use the iron-media-query polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-media-query.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-meta",
-        "description": "Utility to use the iron-meta polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-meta.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-pages",
-        "description": "Utility to use the iron-pages polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-pages.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-scroll-threshold",
-        "description": "Utility to use the iron-scroll-threshold polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-scroll-threshold.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-selector",
-        "description": "Utility to use the iron-selector polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-selector.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-signals",
-        "description": "Utility to use the iron-signals polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-signals.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-swipeable-container",
-        "description": "Utility to use the iron-swipeable-container polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-swipeable-container.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "iron-test-helpers",
-        "description": "Utility to use the iron-test-helpers polymer element as dependency within a Cubbles component",
-        "resources": [
-          "iron-test-helpers.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-badge",
-        "description": "Utility to use the paper-badge polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-badge.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-button",
-        "description": "Utility to use the paper-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-card",
-        "description": "Utility to use the paper-card polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-card.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-checkbox",
-        "description": "Utility to use the paper-checkbox polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-checkbox.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dialog",
-        "description": "Utility to use the paper-dialog polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-dialog.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dialog-scrollable",
-        "description": "Utility to use the paper-dialog-scrollable polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-dialog-scrollable.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-drawer-panel",
-        "description": "Utility to use the paper-drawer-panel polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-drawer-panel.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dropdown-menu-main",
-        "description": "Utility to use the paper-dropdown-menu polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-dropdown-menu.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-dropdown-menu-light",
-        "description": "Utility to use the paper-dropdown-menu polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-dropdown-menu-light.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-fab",
-        "description": "Utility to use the paper-fab polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-fab.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-header-panel",
-        "description": "Utility to use the paper-header-panel polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-header-panel.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-icon-button-main",
-        "description": "Utility to use the paper-icon-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-icon-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-icon-button-light",
-        "description": "Utility to use the paper-icon-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-icon-button-light.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-input",
-        "description": "Utility to use the paper-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-item",
-        "description": "Utility to use the paper-item polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-item.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-listbox",
-        "description": "Utility to use the paper-listbox polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-listbox.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-material",
-        "description": "Utility to use the paper-material polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-material.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-menu-paper-menu",
-        "description": "Utility to use the paper-menu polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-menu.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-menu-paper-submenu",
-        "description": "Utility to use the paper-menu polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-submenu.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-menu-button",
-        "description": "Utility to use the paper-menu-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-menu-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-progress",
-        "description": "Utility to use the paper-progress polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-progress.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-radio-button",
-        "description": "Utility to use the paper-radio-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-radio-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-radio-group",
-        "description": "Utility to use the paper-radio-group polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-radio-group.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-ripple",
-        "description": "Utility to use the paper-ripple polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-ripple.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-scroll-header-panel",
-        "description": "Utility to use the paper-scroll-header-panel polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-scroll-header-panel.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-slider",
-        "description": "Utility to use the paper-slider polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-slider.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-spinner",
-        "description": "Utility to use the paper-spinner polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-spinner.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-styles",
-        "description": "Utility to use the paper-styles polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-styles.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-tabs",
-        "description": "Utility to use the paper-tabs polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-tabs.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-toast",
-        "description": "Utility to use the paper-toast polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-toast.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-toggle-button",
-        "description": "Utility to use the paper-toggle-button polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-toggle-button.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-toolbar",
-        "description": "Utility to use the paper-toolbar polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-toolbar.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "paper-tooltip",
-        "description": "Utility to use the paper-tooltip polymer element as dependency within a Cubbles component",
-        "resources": [
-          "paper-tooltip.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-cvc-input",
-        "description": "Utility to use the gold-cc-cvc-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-cc-cvc-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-expiration-input",
-        "description": "Utility to use the gold-cc-expiration-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-cc-expiration-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-cc-input",
-        "description": "Utility to use the gold-cc-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-cc-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-email-input",
-        "description": "Utility to use the gold-email-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-email-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-phone-input",
-        "description": "Utility to use the gold-phone-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-phone-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "gold-zip-input",
-        "description": "Utility to use the gold-zip-input polymer element as dependency within a Cubbles component",
-        "resources": [
-          "gold-zip-input.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "neon-animation",
-        "description": "Utility to use the neon-animation polymer element as dependency within a Cubbles component",
-        "resources": [
-          "neon-animation.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "platinum-https-redirect",
-        "description": "Utility to use the platinum-https-redirect polymer element as dependency within a Cubbles component",
-        "resources": [
-          "platinum-https-redirect.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "platinum-push-messaging",
-        "description": "Utility to use the platinum-push-messaging polymer element as dependency within a Cubbles component",
-        "resources": [
-          "platinum-push-messaging.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
-          }
-        ]
-      },
-      {
-        "artifactId": "marked-element",
-        "description": "Utility to use the marked-element polymer element as dependency within a Cubbles component",
-        "resources": [
-          "marked-element.html"
-        ],
-        "dependencies": [
-          {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1597,9 +42,368 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "app-pouchdb",
+        "description": "Utility to use the app-pouchdb polymer elements as dependency within a Cubbles component",
+        "resources": [
+          "app-pouchdb-conflict-resolution.html",
+          "app-pouchdb-database-behavior.html",
+          "app-pouchdb-document.html",
+          "app-pouchdb-index.html",
+          "app-pouchdb-query.html",
+          "app-pouchdb-sync.html",
+          "pouchdb.find.html",
+          "pouchdb.html"
+
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "app-route",
+        "description": "Utility to use the app-route polymer element as dependency within a Cubbles component",
+        "resources": [
+          "app-route.html",
+          "app-location.html",
+          "app-route-converter.html",
+          "app-route-converter-behavior.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "app-storage",
+        "description": "Utility to use the app-storage polymer elements as dependency within a Cubbles component",
+        "resources": [
+          "app-localstorage/app-localstorage-document.html",
+          "app-indexeddb-mirror/app-indexeddb-mirror.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "firebase-element",
+        "description": "Utility to use the firebase-element polymer elements as dependency within a Cubbles component",
+        "resources": [
+          "firebase.html",
+          "firebase-query-behavior.html",
+          "firebase-auth.html",
+          "firebase-collection.html",
+          "firebase-document.html"
+
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-cvc-input",
+        "description": "Utility to use the gold-cc-cvc-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-cc-cvc-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-expiration-input",
+        "description": "Utility to use the gold-cc-expiration-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-cc-expiration-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-cc-input",
+        "description": "Utility to use the gold-cc-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-cc-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-email-input",
+        "description": "Utility to use the gold-email-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-email-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-phone-input",
+        "description": "Utility to use the gold-phone-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-phone-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "gold-zip-input",
+        "description": "Utility to use the gold-zip-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "gold-zip-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-analytics",
+        "description": "Utility to use the google-analytics polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-analytics.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-apis",
+        "description": "Utility to use the google-apis polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-apis.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-calendar",
+        "description": "Utility to use the google-calendar polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-calendar.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-castable-video",
+        "description": "Utility to use the google-castable-video polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-cast-sender-api.html",
+          "google-castable-video.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-chart",
+        "description": "Utility to use the google-chart polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-chart.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-feeds",
+        "description": "Utility to use the google-feeds polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-feeds.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-hangout-button",
+        "description": "Utility to use the google-hangout-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-hangout-button.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-map",
+        "description": "Utility to use the google-map polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-map-elements.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-sheets",
+        "description": "Utility to use the google-sheets polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-sheets.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-signin",
+        "description": "Utility to use the google-signin polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-signin-aware.html",
+          "google-signin.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-streetview-pano",
+        "description": "Utility to use the google-streetview-pano polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-streetview-pano.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-url-shortener",
+        "description": "Utility to use the google-url-shortener polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-url-shortener.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-youtube",
+        "description": "Utility to use the google-youtube polymer element as dependency within a Cubbles component",
+        "resources": [
+          "google-youtube.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "google-youtube-upload",
+        "description": "Utility to use the google-youtube-upload polymer element as dependency within a Cubbles component",
+        "resources": [
+          "upload-import.html",
+          "md-gum-polyfill-import.html",
+          "google-youtube-upload-icons.html",
+          "google-youtube-upload.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-a11y-announcer",
+        "description": "Utility to use the iron-a11y-announcer polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-a11y-announcer.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-a11y-keys",
+        "description": "Utility to use the iron-a11y-keys polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-a11y-keys.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1611,9 +415,8 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1625,9 +428,120 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+
+      {
+        "artifactId": "iron-ajax",
+        "description": "Utility to use the iron-ajax polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-request.html",
+          "iron-ajax.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-autogrow-textarea",
+        "description": "Utility to use the iron-autogrow-textarea polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-autogrow-textarea.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-behaviors",
+        "description": "Utility to use the iron-behaviors as dependency within a Cubbles component",
+        "resources": [
+          "iron-control-state.html",
+          "iron-button-state.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-collapse",
+        "description": "Utility to use the iron-collapse polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-collapse.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-component-page",
+        "description": "Utility to use the iron-component-page polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-component-page.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-demo-helpers",
+        "description": "Utility to use the iron-demo-helpers polymer elements as dependency within a Cubbles component",
+        "resources": [
+          "demo-snippet.html",
+          "demo-pages-shared-styles.html",
+          "url-bar.html"
+
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-doc-viewer",
+        "description": "Utility to use the iron-doc-viewer polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-doc-viewer.html",
+          "iron-doc-property.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-dropdown",
+        "description": "Utility to use the iron-dropdown polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-dropdown-scroll-manager.html",
+          "iron-dropdown.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1639,9 +553,35 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-flex-layout",
+        "description": "Utility to use the iron-flex-layout polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-flex-layout.html",
+          "iron-flex-layout-classes.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-form",
+        "description": "Utility to use the iron-form polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-form.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1653,9 +593,175 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-icon",
+        "description": "Utility to use the iron-icon polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-icon.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-icons",
+        "description": "Utility to use the iron-icons polymer element as dependency within a Cubbles component",
+        "resources": [
+          "av-icons.html",
+          "communication-icons.html",
+          "device-icons.html",
+          "editor-icons.html",
+          "hardware-icons.html",
+          "image-icons.html",
+          "iron-icons.html",
+          "maps-icons.html",
+          "notification-icons.html",
+          "places-icons.html",
+          "social-icons.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-iconset",
+        "description": "Utility to use the iron-iconset polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-iconset.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-iconset-svg",
+        "description": "Utility to use the iron-iconset polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-iconset-svg.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-image",
+        "description": "Utility to use the iron-image polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-image.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-input",
+        "description": "Utility to use the iron-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-input.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-jsonp-library",
+        "description": "Utility to use the iron-jsonp-library polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-jsonp-library.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-label",
+        "description": "Utility to use the iron-label polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-label.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-list",
+        "description": "Utility to use the iron-list polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-list.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-localstorage",
+        "description": "Utility to use the iron-localstorage polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-localstorage.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-location",
+        "description": "Utility to use the iron-location polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-query-params.html",
+          "iron-location.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-media-query",
+        "description": "Utility to use the iron-media-query polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-media-query.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1663,13 +769,26 @@
         "artifactId": "iron-menu-behavior",
         "description": "Utility to use the iron-menu-behavior polymer element as dependency within a Cubbles component",
         "resources": [
-          "iron-menu-behavior.html"
+          "iron-menu-behavior.html",
+          "iron-menubar-behavior.html"
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-meta",
+        "description": "Utility to use the iron-meta polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-meta.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1677,13 +796,27 @@
         "artifactId": "iron-overlay-behavior",
         "description": "Utility to use the iron-overlay-behavior polymer element as dependency within a Cubbles component",
         "resources": [
-          "iron-overlay-behavior.html"
+          "iron-overlay-backdrop.html",
+          "iron-overlay-behavior.html",
+          "iron-overlay-manager.html"
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-pages",
+        "description": "Utility to use the iron-pages polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-pages.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1695,9 +828,8 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1709,9 +841,8 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1723,9 +854,78 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-scroll-threshold",
+        "description": "Utility to use the iron-scroll-threshold polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-scroll-threshold.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-selector",
+        "description": "Utility to use the iron-selector polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-selection.html",
+          "iron-selectable.html",
+          "iron-multi-selectable.html",
+          "iron-selector.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-signals",
+        "description": "Utility to use the iron-signals polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-signals.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-swipeable-container",
+        "description": "Utility to use the iron-swipeable-container polymer element as dependency within a Cubbles component",
+        "resources": [
+          "iron-swipeable-container.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "iron-test-helpers",
+        "description": "Utility to use the iron-test-helpers polymer element as dependency within a Cubbles component",
+        "resources": [
+          "test-helpers.html",
+          "mock-interactions.html",
+          "iron-test-helpers.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1737,9 +937,8 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1751,9 +950,117 @@
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+
+      {
+        "artifactId": "marked-element",
+        "description": "Utility to use the marked-element polymer element as dependency within a Cubbles component",
+        "resources": [
+          "marked-import.html",
+          "marked-element.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "neon-animation",
+        "description": "Utility to use the neon-animation polymer element as dependency within a Cubbles component",
+        "resources": [
+          "neon-animation.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-badge",
+        "description": "Utility to use the paper-badge polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-badge.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-behaviors",
+        "description": "Utility to use the paper-behaviors as dependency within a Cubbles component",
+        "resources": [
+          "paper-ripple-behavior.html",
+          "paper-inky-focus-behavior.html",
+          "paper-button-behavior.html",
+          "paper-checked-element-behavior.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-button",
+        "description": "Utility to use the paper-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-button.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-card",
+        "description": "Utility to use the paper-card polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-card.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-checkbox",
+        "description": "Utility to use the paper-checkbox polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-checkbox.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dialog",
+        "description": "Utility to use the paper-dialog polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-dialog.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       },
@@ -1761,16 +1068,422 @@
         "artifactId": "paper-dialog-behavior",
         "description": "Utility to use the paper-dialog-behavior polymer element as dependency within a Cubbles component",
         "resources": [
-          "paper-dialog-behavior.html"
+          "paper-dialog-behavior.html",
+          "paper-dialog-shared-styles.html"
         ],
         "dependencies": [
           {
-            "webpackageId": "polymer-1.2.3@1.0.2",
-            "artifactId": "polymer",
-            "endpointId": "main"
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dialog-scrollable",
+        "description": "Utility to use the paper-dialog-scrollable polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-dialog-scrollable.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-drawer-panel",
+        "description": "Utility to use the paper-drawer-panel polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-drawer-panel.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-dropdown-menu",
+        "description": "Utility to use the paper-dropdown-menu polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-dropdown-menu-icons.html",
+          "paper-dropdown-menu-shared-styles.html",
+          "paper-dropdown-menu.html",
+          "paper-dropdown-menu-light.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-fab",
+        "description": "Utility to use the paper-fab polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-fab.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-header-panel",
+        "description": "Utility to use the paper-header-panel polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-header-panel.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-icon-button",
+        "description": "Utility to use the paper-icon-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-icon-button-light.html",
+          "paper-icon-button-light.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-input",
+        "description": "Utility to use the paper-input polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-input-behavior.html",
+          "paper-input-addon-behavior.html",
+          "paper-input-char-counter.html",
+          "paper-input-container.html",
+          "paper-input-error.html",
+          "paper-input.html",
+          "paper-textarea.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-item",
+        "description": "Utility to use the paper-item polymer element as dependency within a Cubbles component",
+        "resources": [
+          "all-imports.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-listbox",
+        "description": "Utility to use the paper-listbox polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-listbox.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-material",
+        "description": "Utility to use the paper-material polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-material.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-menu",
+        "description": "Utility to use the paper-menu polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-menu.html",
+          "paper-submenu.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-menu-button",
+        "description": "Utility to use the paper-menu-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-menu-button.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-progress",
+        "description": "Utility to use the paper-progress polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-progress.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-radio-button",
+        "description": "Utility to use the paper-radio-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-radio-button.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-radio-group",
+        "description": "Utility to use the paper-radio-group polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-radio-group.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-ripple",
+        "description": "Utility to use the paper-ripple polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-ripple.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-scroll-header-panel",
+        "description": "Utility to use the paper-scroll-header-panel polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-scroll-header-panel.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-slider",
+        "description": "Utility to use the paper-slider polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-slider.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-spinner",
+        "description": "Utility to use the paper-spinner polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-spinner.html",
+          "paper-spinner-lite.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-styles",
+        "description": "Utility to use the paper-styles polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-styles.html",
+          "demo-pages.html",
+          "paper-styles-classes.html"
+
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-tabs",
+        "description": "Utility to use the paper-tabs polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-tabs.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-toast",
+        "description": "Utility to use the paper-toast polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-toast.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-toggle-button",
+        "description": "Utility to use the paper-toggle-button polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-toggle-button.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-toolbar",
+        "description": "Utility to use the paper-toolbar polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-toolbar.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "paper-tooltip",
+        "description": "Utility to use the paper-tooltip polymer element as dependency within a Cubbles component",
+        "resources": [
+          "paper-tooltip.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "platinum-bluetooth",
+        "description": "Utility to use the platinum-bluetooth-elements polymer element as dependency within a Cubbles component",
+        "resources": [
+          "platinum-bluetooth-elements.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "platinum-https-redirect",
+        "description": "Utility to use the platinum-https-redirect polymer element as dependency within a Cubbles component",
+        "resources": [
+          "platinum-https-redirect.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "platinum-push-messaging",
+        "description": "Utility to use the platinum-push-messaging polymer element as dependency within a Cubbles component",
+        "resources": [
+          "platinum-push-messaging.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "platinum-sw",
+        "description": "Utility to use the platinum-sw-elements polymer element as dependency within a Cubbles component",
+        "resources": [
+          "platinum-sw-elements.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
+          }
+        ]
+      },
+      {
+        "artifactId": "prism-element",
+        "description": "Utility to use the prism-highlighter polymer element as dependency within a Cubbles component",
+        "resources": [
+          "prism-highlighter.html"
+        ],
+        "dependencies": [
+          {
+            "webpackageId": "polymer-1.2.3@1.1.0",
+            "artifactId": "polymer"
           }
         ]
       }
+
     ]
   }
 }

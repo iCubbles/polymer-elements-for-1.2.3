@@ -15,20 +15,26 @@ that uses the polymer elements _google-map_ and _google-map-maker_.
 {
     "artifactId": "cubx-google-map",
     ...
-    "endpoints": [
-      {
-        "endpointId": "main",
-        "description": "This is recommended for you use with webcomponents.",
         "resources": [
           "cubx-google-map.html"
         ],
         "dependencies": [
-          "cubx.core.rte@1.9.0/cubxpolymer/main",
+          {
+            "artifactId": "cubxpolymer",
+            "webpackageId": "cubx.core.rte@2.2.2"
+          },
+          {
+            "artifactId": "google-map",
+            "webpackageId": "polymer-elements-for-1.2.3@1.1.0"
+          },
+          {
+            "artifactId": "google-map-marker",
+            "webpackageId": "polymer-elements-for-1.2.3@1.1.0"
+          }
           "polymer-elements-for-1.2.3@1.0.1/google-map/google-map",
           "polymer-elements-for-1.2.3@1.0.1/google-map/google-map-marker"
         ]
-      }
-    ]
+   
     ...
 }
 ```

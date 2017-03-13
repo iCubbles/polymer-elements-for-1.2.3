@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         webpackagePath + '/app-layout/site',
         webpackagePath + '/app-layout/templates',
         webpackagePath + '/app-layout/patterns'
-      ], {force: true});
+      ], { force: true });
       var polymerElements = grunt.file.readJSON(webpackagePath + '/bower.json').dependencies || [];
       var manifestWebpackagePath = grunt.config.get('manifestWebpackagePath');
       var manifest = grunt.file.readJSON(manifestWebpackagePath);
@@ -26,35 +26,37 @@ module.exports = function (grunt) {
       var countBehaviors = 0;
       for (var key in polymerElements) {
         if (grunt.file.exists(path.join(webpackagePath, key, key + '.html'))) {
-          var artifactObject = {
+          var artifactObjectList = [ {
             artifactId: key,
             description: 'Utility to use the ' + key + ' polymer element as dependency within a Cubbles component',
-            endpoints: [
+            resources: [
+              key + '.html'
+            ],
+            dependencies: [
               {
-                endpointId: 'main',
-                resources: [
-                  key + '.html'
-                ],
-                dependencies: [
-                  'polymer-1.2.3@1.0.2/polymer/main'
-                ]
+                webpackageId: 'polymer-1.2.3@1.1.0',
+                artifactId: 'polymer'
               }
             ]
-          };
+          } ];
 
           var lightElementPath = path.join(webpackagePath, key, key + '-light.html');
           try {
             grunt.file.read(lightElementPath);
-            var lightEndpoint = {
-              endpointId: 'light',
+            var lightArtifactObject = {
+              artifactId: key,
+              description: 'Utility to use the ' + key + ' polymer element as dependency within a Cubbles component',
               resources: [
                 key + '-light.html'
               ],
               dependencies: [
-                'polymer-1.2.3@1.0.2/polymer/main'
+                {
+                  webpackageId: 'polymer-1.2.3@1.1.0',
+                  artifactId: 'polymer'
+                }
               ]
             };
-            artifactObject.endpoints.push(lightEndpoint);
+            artifactObjectList.push(lightArtifactObject);
             countLightEndpoints++;
           } catch (e) {}
 
@@ -64,17 +66,19 @@ module.exports = function (grunt) {
           }
 
           // add or replace the artifact
-          var index = utils.arrayObjectIndexOf(manifest.artifacts.utilities, 'artifactId',
-            artifactObject.artifactId);
-          if (key.includes('behavior')) {
-            countBehaviors++;
-          } else if (index < 0) {
-            manifest.artifacts.utilities.push(artifactObject);
-            countPushed++;
-          } else {
-            manifest.artifacts.utilities.splice(index, 1, artifactObject);
-            countReplaced++;
-          }
+          artifactObjectList.forEach((artifactObject) => {
+            var index = utils.arrayObjectIndexOf(manifest.artifacts.utilities, 'artifactId',
+              artifactObject.artifactId);
+            if (key.includes('behavior')) {
+              countBehaviors++;
+            } else if (index < 0) {
+              manifest.artifacts.utilities.push(artifactObject);
+              countPushed++;
+            } else {
+              manifest.artifacts.utilities.splice(index, 1, artifactObject);
+              countReplaced++;
+            }
+          });
           grunt.file.write(manifestWebpackagePath, JSON.stringify(manifest, null, 2));
         } else {
           countFailures++;
